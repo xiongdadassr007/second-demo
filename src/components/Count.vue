@@ -37,7 +37,7 @@ export default {
                 id: this.countId,
                 num: value
             }
-            console.log(obj);
+            // console.log(obj);
             this.$emit('countChange', obj)
         },
         // 设置初始num值为后台数据的值

@@ -63,8 +63,8 @@ export default {
                 "https://www.escook.cn/api/cart"
             );
             this.requestData = res.list;
-            console.log(res);
-            console.log(this.requestData);
+            // console.log(res);
+            // console.log(this.requestData);
         },
         // 接收商品选项的改变并处理
         chageSelectStatus(value) {
